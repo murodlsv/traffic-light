@@ -1,0 +1,97 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.papa{
+    margin: auto;
+    margin-top: 30vh;
+    border: 1px solid grey;
+    border-radius: 50px;
+    width: 100px;
+    height: 300px;
+    background-color: grey;
+    margin-bottom: 30px;
+}
+.div-1{
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+.div-2{
+    border: 1px solid rgb(255, 230, 0);
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+.div-3{
+    border: 1px solid rgb(43, 255, 0);
+    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+.red{
+    padding: 15px;
+    display: block;
+    background-color: rgb(255, 0, 0);
+    color: black;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    outline: none;
+}
+.yellow{
+    padding: 15px;
+    display: block;
+    background-color: rgb(255, 230, 0);
+    color: black;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    outline: none;
+}
+.green{
+    padding: 15px;
+    display: block;
+    background-color: rgb(43, 255, 0);
+    color: black;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    outline: none;
+}
+.red:hover{
+    background-color: rgb(184, 36, 36);
+    cursor: pointer;
+    color: white;
+}
+.yellow:hover{
+    background-color: rgb(204, 188, 40);
+    cursor: pointer;
+    color: white;
+}
+.green:hover{
+    background-color: rgb(69, 192, 44);
+    cursor: pointer;
+    color: white;
+}
+.d0{
+    display: flex;
+    width: 200px;
+}
+.redd{
+    background-color: rgb(255, 0, 0);
+}
+.yeellow{
+    background-color: rgb(255, 230, 0);
+}
+.greeen{
+    background-color: rgb(43, 255, 0);
+}
